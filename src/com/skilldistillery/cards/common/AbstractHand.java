@@ -16,7 +16,11 @@ public abstract class AbstractHand {
 		public void addCard(Card card) {
 			cardsInHand.add(card);
 		}
-
+		
 		//NO getHand()
+		//what do both players do? not the aspects of the game its self but how do they act?
+		//they have a value, you can add a card to your hand
+		//since clear is for concurrent games i dont find it necessary for single game
+		
 		
 }
