@@ -27,7 +27,7 @@ public class BlackjackHand extends AbstractHand {
 	}
 	
 	//if number in hand is over 21 then handValue is bust, if under or equal to 21 then not bust.
-	public boolean Blackjack() {
+	public boolean isBlackjack() {
 		if(getHandValue > 21) {
 			return true;
 		}

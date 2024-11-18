@@ -15,7 +15,7 @@ public class BlackjackApp {
 	//dealer must play until they each 17 and show one card first round 
 	//players both cards will both be displayed and can choose to take card (Hit button) until they get close to 21 or go over it and an option to stand (choose to end turn)
 	//must compare both hands if neither is bust (ie is blackjack or if dealer is > than player or visaversa)
-	
+	//if im able to get this up soon, washington blackjack starts off with two decks (104 cards) for loop
 	private BlackjackApp() {
 		dealer = new Dealer();
 		player  = new Player();
