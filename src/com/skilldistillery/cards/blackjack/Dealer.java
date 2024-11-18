@@ -22,6 +22,7 @@ public class Dealer extends Player{
 		
 		public Card[] dealCardsFromDeck(int cards){
 			Card[] cardsDelt = new Card[cards];
+			//update
 			for (int i = 0; i < cardsDelt.length; i++) {
 				cardsDelt[i] = deck.dealCard();
 			}
