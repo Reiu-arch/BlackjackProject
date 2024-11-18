@@ -28,7 +28,20 @@ public class BlackjackApp {
 	}
 
 	private void loseMoney() {
-		
+		//methods needed : first itteration to start off the game, user turn that shows current hand value and cards as well as one card of dealers hand and value of ONE card, then dealers turn that then shows second card, total value of hand, force play till 17 min, and way to check winner
+	}
+	
+	//practice in ternarys almost had it, had to use chatgpt, did not know it ALL needed to be encapsulated within a println to work (will only one of the options print and the others not since all in one println? will find out soon)
+	//need more practice with ternarys
+	public void winnerWinnerChickenDinner() {
+	    System.out.println(
+	        player.isBust() ? "Looks like you lost." :
+	        dealer.isBlackjack() ? "Good job, your win this time!": 
+	        dealer.isBust() ? "Looks like the dealer lost, you win!" :
+	        dealer.getHandValue() == player.getHandValue() && !dealer.isBlackjack() ? "Tie, pushed to next round." :
+	        dealer.getHandValue() > player.getHandValue() ? "Dealer has a higher hand, you lose!" :
+	        "Your win!"
+	    );
 	}
 
 }

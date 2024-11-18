@@ -31,8 +31,8 @@ public class Player {
 	public boolean isBust() {
 		return hand.isBust();
 	}
-
-	public boolean isNaturalBlackjack() {
+	//probably wont be able to add a natural blackjack and regular blackjack
+	public boolean isBlackjack() {
 		return hand.isBlackjack();
 
 	}
