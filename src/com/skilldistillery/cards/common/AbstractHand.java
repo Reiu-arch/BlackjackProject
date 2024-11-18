@@ -5,6 +5,7 @@ import java.util.List;
 
 public abstract class AbstractHand {
 
+		//
 		protected List<Card> cardsInHand;
 		
 		public AbstractHand()	{
@@ -15,6 +16,10 @@ public abstract class AbstractHand {
 		
 		public void addCard(Card card) {
 			cardsInHand.add(card);
+		}
+		
+		public String showCards() {
+			return "" + cardsInHand;
 		}
 		
 		//NO getHand()

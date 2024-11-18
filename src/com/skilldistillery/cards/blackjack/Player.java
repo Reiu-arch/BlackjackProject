@@ -39,5 +39,8 @@ public class Player {
 	public int getHandValue() {
 		return hand.getHandValue();
 	}
+	public String showString() {
+		return hand.showCards();
+	}
 	//need a way to show the cards in hand, not just the total value (Then youre not able to make an educated guess ie count cards...but where to put it to pull it from)
 }
